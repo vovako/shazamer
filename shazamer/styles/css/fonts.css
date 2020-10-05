@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Kia Medium';
+	src: url('../../fonts/KIAM.eot');
+	src: url('../../fonts/KIAM.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/KIAM.woff') format('woff'),
+	url('../../fonts/KIAM.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}

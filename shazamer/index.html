@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.ico">
+	<link rel="icon" type="image/png" sizes="48x48" href="image/favicon-48x48.ico">
+	<link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.ico">
+	<title>Shazamer</title>
+	<link rel="stylesheet" href="styles/css/my_reset.css">
+	<link rel="stylesheet" href="styles/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/css/fonts.css">
+	<link rel="stylesheet" href="styles/css/style.min.css">
+	<script src="scripts/script.js" defer></script>
+</head>
+<body>
+	<div class="radio">
+		<header class="header active">
+			<div class="header-wrapper">
+				<div class="currency-track">
+					<div class="currency-track__name">Gone.fludd - Сети</div>
+					<a  href="#" download class="currency-track__download"><i class="fa fa-download"></i><span>Скачать не текущий трек</span></a>
+				</div>
+
+				<div class="header__divader"></div>
+
+				<div class="header-preview">
+					<img src="image/shazam.png" alt="">
+					<button class="fa header_play"></button>
+				</div>
+				<div class="header-body">
+					<span class="header-name"></span>
+					<input type="range" id="volume-bar" min="0" max="100" value="80">
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<ul class="radio-navigation">
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/marusya.jpg" alt="marusya fm лого">
+						</div>
+						<input type="radio" name="radio-station" data-radio-station="https://radioindia.net/russia/marusya-fm/icecast.audio">
+						<span class="radio-name">Маруся FM</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/dfm.jpg" alt="dfm лого">
+						</div>
+						<input type="radio" name="radio-station" data-radio-station="https://dfm.hostingradio.ru/dfm96.aacp">
+						<span class="radio-name">DFM</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/russ-radio.jpg" alt="russ-radio лого">
+						</div>
+						<input type="radio" name="radio-station"
+							data-radio-station="https://rusradio.hostingradio.ru/rusradio96.aacp">
+						<span class="radio-name">Русское Радио</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/new-radio.jpg" alt="новое радио лого">
+						</div>
+						<input type="radio" name="radio-station" data-radio-station="https://icecast-newradio.cdnvideo.ru/newradio3">
+						<span class="radio-name">Новое Радио</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/energy.jpg" alt="радио energy лого">
+						</div>
+						<input type="radio" name="radio-station"
+							data-radio-station="https://pub0301.101.ru:8000/stream/air/aac/64/99">
+						<span class="radio-name">Радио Energy</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/evropa.jpg" alt="европа плюс лого">
+						</div>
+						<input type="radio" name="radio-station"
+							data-radio-station="https://europaplus.hostingradio.ru:8014/europaplus320.mp3">
+						<span class="radio-name">Европа Плюс</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/record.jpg" alt="Радио Рекорд лого">
+						</div>
+						<input type="radio" name="radio-station" data-radio-station="https://air.radiorecord.ru:805/rr_320">
+						<span class="radio-name">Радио Рекорд</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/hit-fm.jpg" alt="Хит FM лого">
+						</div>
+						<input type="radio" name="radio-station" data-radio-station="https://hitfm.hostingradio.ru/hitfm96.aacp">
+						<span class="radio-name">Хит FM</span>
+					</label>
+				</li>
+	
+				<li>
+					<label class="radio-item">
+						<div class="radio-image">
+							<img src="image/road-radio.jpg" alt="Дорожное радио лого">
+						</div>
+						<input type="radio" name="radio-station" data-radio-station="https://dorognoe.hostingradio.ru/radio">
+						<span class="radio-name">Дорожное радио</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
